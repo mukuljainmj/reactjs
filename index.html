@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>REACTJS</title>
+  </head>
+  <body>
+    <div>
+        <h1>Above root</h1>
+    </div>
+    <div id="root">
+        <h1>Already a h1 tag</h1>
+      <!-- <h1>Hellow World From HTML</h1> -->
+    </div>
+    <!-- <script>
+        const root = document.createElement('div');
+        document.body.appendChild(root);
+        const heading = document.createElement('h1');
+        heading.innerHTML = 'Hello World From JavaScript';
+        root.appendChild(heading);
+    </script> -->
+    <!-- <script src="./App.js"></script> -->
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- Connects Browser to DOM -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <!-- Hellow World Using React -->
+    <script src="./App.js"></script>
+    <!-- <link rel="stylesheet" href="./index.css" /> -->
+  </body>
+</html>
