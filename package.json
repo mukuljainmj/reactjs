@@ -1,0 +1,30 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "Learn ReactJS",
+  "scripts": {
+    "start:": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukuljainmj/reactjs.git"
+  },
+  "keywords": [
+    "ReactJS"
+  ],
+  "author": "Mukul Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukuljainmj/reactjs/issues"
+  },
+  "homepage": "https://github.com/mukuljainmj/reactjs#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

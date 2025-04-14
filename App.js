@@ -1,25 +1,12 @@
-/**
- * <div id="parent">
- *  <div id="child1">
- *      <h1>Hello World From React</h1>
- *  </div>
- *  <div id="child2">
- *  </div>
- * </div>
- */
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const heading = React.createElement(
-  "h1",
-  { id: "heading", className: "heading" },
-  "Hello World From React"
-);
-console.log(heading);
+// JSX transpiled to React.createElement before it reaches to JS Engine
+// Above action id done by Parcel -> Babel
 const root = ReactDOM.createRoot(document.getElementById("root"));
-console.log(root, 'root');
-// root.render(heading);
 
-const parent = React.createElement("div", { id: "parent" }, 
-  [React.createElement("div", { id: "child" }, heading), React.createElement("div", { id: "child2" })],
-);
-console.log(parent);
-root.render(parent);
+const ParentComp = () => {
+  return <div></div>;
+};
+
+root.render(<ParentComp></ParentComp>);
